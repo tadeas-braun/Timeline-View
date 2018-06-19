@@ -95,7 +95,7 @@ public class TimelineView extends View {
         if(mMarkerInCenter) { //Marker in center is true
 
             if(mMarker != null) {
-                mMarker.setBounds((width/2) - (markSize/2),(height/2) - (markSize/2) + pTop, (width/2) + (markSize/2),(height/2) + (markSize/2));
+                mMarker.setBounds((width/2) - (markSize/2),(height/2) - (markSize/2) + pTop , (width/2) + (markSize/2),(height/2) + (markSize/2) - pTop);
                 mBounds = mMarker.getBounds();
             }
 
